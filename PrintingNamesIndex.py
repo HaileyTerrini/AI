@@ -3,9 +3,7 @@
 # Program: Printing names Index
 # Resource: https://youtu.be/jRAAaDll34Q?si=SZq8WSYzjrmuAoIA
 
-names = ["Hailey" , "Bella" , "katelyn" , "Maddie"]
+names = ["Hailey", "Bella", "Katelyn", "Maddie"]
 
-index = 0
-for name in names:
-    print(index,name)
-    index += 1
+for index, name in enumerate(names):
+    print(index, name)
